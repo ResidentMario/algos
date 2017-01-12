@@ -1,4 +1,5 @@
 var jsc = require("jsverify");
+var assert = require("assert");
 
 function merge(p1, p2) {
     // What I learned while writing this: the duck test implementation used in Python can't be done as easily in
