@@ -17,7 +17,7 @@ function insertion_sort(a) {
 }
 
 describe('Insertion Sort (JSVerify)', function() {
-    it('returns an empty list when the list is empty', function() {
+    it('works', function() {
         jsc.property("idempotent", "array nat", function (a) {
             return assert.deepEqual(insertion_sort(a), a.sort());
         });
